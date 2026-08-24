@@ -5,7 +5,7 @@
 <br>
 **Villanova Combat Robotics | National Havoc Robotics League (NHRL)**
 <br>
-**Role: Weapon Systems Design Lead**
+**Role: Frame and Armor Lead**
 
 <!-- HERO IMAGE: final photo of the bot, or CAD render if photo isn't available -->
 <img src="assets/CombatRobotCompImage.png" width="55%" />
@@ -14,7 +14,7 @@
 
 FREEDOM is a 3lb vertical spinner combat robot built for the National Havoc Robotics League (NHRL), one of the largest competitive combat robotics circuits in the country. FREEDOM was part of the first cohort of robots Villanova Combat Robotics ever brought to competition, and the club's first appearance at NHRL.
 
-As Weapon Systems Design Lead, I focused on the full weapon system: selecting parts, designing and iterating the CAD in SolidWorks, machining the components on a lathe and mill, and integrating the electronics (soldering, motor controller tuning, and receiver configuration) needed to get the system running reliably in competition. Beyond the weapon system, I also supported the build more broadly. I collaborated with teammates on integration across subsystems, weighed in on part selection for the platform, contributed to chassis design, and tracked the robot's weight against the 3lb limit using a shared weight budget spreadsheet. I also assisted with machining and electronics work outside my own scope. As this was Villanova Combat Robotics' first competition build, most of the process was worked out as a team in real time. That meant frequent coordination on design tradeoffs and build priorities across the group.
+As The Frame and Armor Design Lead, I focused on the frame and supporting joint system: selecting parts, designing and iterating the CAD in SolidWorks, machining the components on a lathe and mill, and integrating the electronics (soldering, motor controller tuning, and receiver configuration) needed to get the system running reliably in competition. Beyond the weapon system, I also supported the build more broadly. I collaborated with teammates on integration across subsystems, weighed in on part selection for the platform, contributed to chassis design, and tracked the robot's weight against the 3lb limit using a shared weight budget spreadsheet. I also assisted with machining and electronics work outside my own scope. As this was Villanova Combat Robotics' first competition build, most of the process was worked out as a team in real time. That meant frequent coordination on design tradeoffs and build priorities across the group.
 
 ## Bill of Materials
 | Component | Function | Part | Photo |
@@ -34,7 +34,7 @@ As Weapon Systems Design Lead, I focused on the full weapon system: selecting pa
 | Receiver | Receives transmitter signal, outputs to ESCs | FlySky FS-iA6B 6CH Receiver | <img src="assets/Screenshot 2026-08-14 005118.png" width="80" /> |
 
 ## Design & CAD
-The weapon system went through multiple design iterations in SolidWorks before being finalized for machining. As Weapon Systems Design Lead, this design work, and the machining that followed, was my primary responsibility on the team. Design iterations were mainly focused on maximizing damage dealt, reliability, and weight. Throughout this process, I worked closely with the chassis team to make sure the weapon would mount correctly, function as intended within the chassis geometry, and stay within the robot's overall weight budget.
+The frame system went through multiple design iterations in SolidWorks before being finalized for machining. As Frame Systems Design Lead, this design work, and the machining that followed, was my primary responsibility on the team. Design iterations were mainly focused on maneuverability, deflecting oponents weapons, handling weapon vibration, and weight. Throughout this process, I worked closely with the weapons team to make sure the weapon would mount correctly, function as intended within the chassis geometry, and stay within the robot's overall weight budget.
 
 ### Weapon
 <img src="assets/Screenshot 2026-08-12 220451.png" width="56%" />
