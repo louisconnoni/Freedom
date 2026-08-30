@@ -36,14 +36,22 @@ As The Frame and Armor Design Lead, I focused on the frame and supporting joint 
 ## Design & CAD
 The frame system went through multiple design iterations in SolidWorks before being finalized for machining. As Frame Systems Design Lead, this design work, and the machining that followed, was my primary responsibility on the team. Design iterations were mainly focused on maneuverability, deflecting oponents weapons, handling weapon vibration, and weight. Throughout this process, I worked closely with the weapons team to make sure the weapon would mount correctly, function as intended within the chassis geometry, and stay within the robot's overall weight budget.
 
-### Weapon
-<img src="assets/Screenshot 2026-08-12 220451.png" width="56%" />
+### Frame
+<img src="assets/Screenshot 2026-08-30 161739.png" width="60%" />
 
-*CAD design of the vertical spinner and dead shaft assembly. The weapon uses ball bearings and 3D-printed spacers mounted on the dead shaft, allowing the spinner to be belt-driven while the shaft itself remains stationary. The dead shaft mounts to aluminum side walls, shown below in the Chassis design. Simple FEA was performed to confirm the dead shaft and weapon could withstand impact loading from opposing robots.*
+*Initial view of the side frame. Frame uses slotted connections as a redundancy to screw connections. Material was hollowed in locations seeing less fatigue from the motor.*
+
+<img src="assets/Screenshot 2026-08-30 161957.png" width="60%" />
+
+*Initial view of the front frame grille. Slotted front protects from debris from combat while staying mindful on weight*
+
+<img src="assets/Screenshot 2026-08-30 161627.png" width="60%" />
+
+*Initial assembly of the full frame with internals shown. Wheels were placed internal to the frame to protect from damage from the side, TPU was placed on the outside to absorb initial attack and prevent debris from hitting critical section*
 
 ### Chassis
 <!-- CHASSIS CAD -->
-<img src="assets/CADCombatRobot.png" width="56%" />
+<img src="assets/CADCombatRobot.png" width="60%" />
 <!-- WEAPON CAD -->
 <!-- <img src="assets/freedom-weapon-cad.png" width="49%" /> -->
 
@@ -54,11 +62,11 @@ The frame system went through multiple design iterations in SolidWorks before be
 <!-- PLA PROTOTYPE -->
 <img src="assets/FREEDOMPLACROPPED.jpeg" width="56%" />
 
-*Once the design was validated in PLA, the final weapon system components were machined from 4140 alloy steel on a lathe and mill, including turning the dead shaft and milling the weapon hub to final tolerance.*
+*Once the design was validated in PLA, the final frame system components were machined from 5052 Alloy aluminum on a cnc mill. Final post processing used a rasp to meet tolerances*
 
 ## Electronics
 
-Electronics was another main area where I worked closely with the chassis team, drawing on prior experience with RC controllers to help the group get the system running reliably. Electrical integration covered the full signal and power chain: soldering motor and battery connections, tuning the weapon and drive ESCs for consistent throttle response, configuring the receiver (mapping controller inputs to the correct channel outputs), and adjusting the throttle curve to fine-tune drive responsiveness for competition conditions.
+Electronics was another main area where I worked closely to with fellow teams to ensure the internal systems had the proper spacing. Electrical integration covered the full signal and power chain: soldering motor and battery connections, tuning the weapon and drive ESCs for consistent throttle response, configuring the receiver (mapping controller inputs to the correct channel outputs), and adjusting the throttle curve to fine-tune drive responsiveness for competition conditions.
 
 
 <img src="assets/ElectronicsCrop.png" width="57%" />
@@ -83,13 +91,11 @@ FREEDOM competed at NHRL as part of Villanova Combat Robotics' first-ever compet
 ## Lessons Learned
 
 - **Build in schedule margin.** With no buffer before competition, a single equipment failure eliminated the ability to test before fielding the robot. Future builds need machining and assembly finished with enough lead time to survive a setback like this.
-- **Don't rely on a single point of failure for critical fabrication.** The CNC being unavailable with no backup plan (alternate machine, outside shop, or manual-machining-friendly design as a fallback) turned one broken part into a cascading failure.
-- **Weapon length likely drove much of the difficulty.** The weapon's length accounted for a large share of the robot's total weight, which tightened the margin everywhere else in the design and likely contributed to the tolerance and balance issues under manual machining.
-
+- **Choose materials and manufacturing wisely** The internal wheel design increased the overall weight of the frame. This lead to future issues in the weight. Additionally high strength materials are only needed in critical areas. Most design used UHMW, a thermoplastic with high impact strength, and provided extra protection with TPU. 
 ## Future Work
 
-This year, I'm stepping into a broader leadership role as co-lead for the entire robot, directing mechanical design and build scheduling across all subsystems, while continuing to lead weapon system development directly. I'm also developing a training curriculum for new members covering soldering, SolidWorks/CAD, embedded systems, machine shop fabrication (lathe, mill, CNC), and FEA, to build technical capacity across the growing team. Planned changes for the next build include:
+This year, I'm stepping into a broader leadership role as co-lead for the entire robot, directing mechanical design and build scheduling across all subsystems, while continuing to lead weapon system development directly. I'm also developing my skills in FEA to provide the necessary structure in the most critical areas. Planned changes for the next build include:
 
-- **Shortening the weapon** to reduce weight, moment of inertia, and stress on the mount, easing both machining tolerances and structural demands
-- **Redesigning the weapon shape** to be more robust to imprecision from manual machining, in case CNC access is disrupted again
+- **Effective balance of material strength** Aluminum was spread across the design which made the design underachieve in critical areas and made reaching weight difficult 
+- **Redesign Frame shape** Most competitive designs minimised connections by hardware besides replaceable parts. Ensuring frame is secure and can support assembly and quick repairs is a priority. 
 - **Building schedule margin and equipment contingencies into the build timeline**, so a single point of failure can't eliminate the team's ability to test before competition
